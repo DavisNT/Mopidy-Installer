@@ -2,7 +2,7 @@ Mopidy Installer
 ===============
 Script for installing [Pi MusicBox](https://www.pimusicbox.com/)-like [Mopidy](https://mopidy.com/) environment on [Raspbian](https://www.raspberrypi.org/downloads/raspbian/). 
 
-Version 1.0.0
+Version 1.0.1
 
 Copyright (c) 2016-2020 Dāvis Mošenkovs
 
@@ -22,6 +22,7 @@ To install Mopidy environment on a new Raspberry Pi:
 
 1. Download Raspbian Buster Lite (or other Buster version if needed).
 1. Install Raspbian, configure audio output, shell access etc.
+1. Don't forget to set time zone if alarm clock will be used.
 1. Download these scripts and run `sudo ./install-buster.sh`
 
 
