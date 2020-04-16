@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Mopidy Installer 1.0.1
+# Mopidy Installer 1.0.2
 # https://github.com/DavisNT/Mopidy-Installer
 # Copyright (c) 2016-2020 Davis Mosenkovs
 # Licensed under the MIT License (see file LICENSE)
