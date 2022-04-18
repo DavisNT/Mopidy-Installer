@@ -2,9 +2,9 @@ Mopidy Installer
 ===============
 Script for installing [Pi MusicBox](https://www.pimusicbox.com/)-like [Mopidy](https://mopidy.com/) environment on [Raspbian](https://www.raspberrypi.org/downloads/raspbian/). 
 
-Version 1.0.3
+Version 1.0.4
 
-Copyright (c) 2016-2021 Dāvis Mošenkovs
+Copyright (c) 2016-2022 Dāvis Mošenkovs
 
 ## Introduction
 

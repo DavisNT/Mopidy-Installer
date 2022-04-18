@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# Mopidy Installer 1.0.3
+# Mopidy Installer 1.0.4
 # https://github.com/DavisNT/Mopidy-Installer
-# Copyright (c) 2016-2021 Davis Mosenkovs
+# Copyright (c) 2016-2022 Davis Mosenkovs
 # Licensed under the MIT License (see file LICENSE)
 
 # Ensure that script is running as root
@@ -27,7 +27,7 @@ apt-get update
 DEBIAN_FRONTEND=noninteractive apt-get -y install python3-pip python3-dev build-essential iptables-persistent mopidy libspotify-dev gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-ugly gstreamer1.0-plugins-bad
 
 # Install Python packages
-pip3 install Mopidy-Mobile Mopidy-Moped Mopidy-Musicbox-Webclient Mopidy-Websettings Mopidy-Spotify Mopidy-Spotify-Tunigo Mopidy-Youtube Mopidy-Soundcloud Mopidy-Dirble Mopidy-Tunein Mopidy-AlarmClock Mopidy-PlaybackDefaults youtube-dl Mopidy-Iris Mopidy-Local-Sqlite
+pip3 install Mopidy-Mobile Mopidy-Moped Mopidy-Musicbox-Webclient Mopidy-Websettings Mopidy-Spotify Mopidy-Spotify-Tunigo Mopidy-Youtube Mopidy-Soundcloud Mopidy-Dirble Mopidy-Tunein Mopidy-AlarmClock Mopidy-PlaybackDefaults youtube-dl Mopidy-Iris Mopidy-Local
 
 # Allow shutdown for Mopidy-Websettings
 echo "mopidy ALL=(root) NOPASSWD: /sbin/shutdown -h now, /sbin/shutdown -r now" > /etc/sudoers.d/020_mopidy_shutdown
